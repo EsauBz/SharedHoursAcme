@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Acme.Workers.SharedHours.Core", "Acme.Workers.SharedHours.Core\Acme.Workers.SharedHours.Core.csproj", "{44C6633E-A0C7-4B0D-B4D1-B90D519007F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acme.Workers.SharedHours.Test", "Acme.Workers.SharedHours.Test\Acme.Workers.SharedHours.Test.csproj", "{293E530E-11C9-43BF-BC8A-1BA96166FBA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44C6633E-A0C7-4B0D-B4D1-B90D519007F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44C6633E-A0C7-4B0D-B4D1-B90D519007F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44C6633E-A0C7-4B0D-B4D1-B90D519007F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44C6633E-A0C7-4B0D-B4D1-B90D519007F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{293E530E-11C9-43BF-BC8A-1BA96166FBA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{293E530E-11C9-43BF-BC8A-1BA96166FBA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{293E530E-11C9-43BF-BC8A-1BA96166FBA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{293E530E-11C9-43BF-BC8A-1BA96166FBA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14EF0BFD-7465-40F1-A1E5-DE7014518CC9}
+	EndGlobalSection
+EndGlobal
