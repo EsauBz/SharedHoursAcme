@@ -14,7 +14,15 @@ The goal of this exercise is to output a table containing pairs of employees and
 | RENE-ASTRID: 3 |
 
 ## The Approach
-To begin with the solution of the problem I started thinking 
+To begin with the solution of the problem I started thinking if I wanted to work a console application or something with and interface, I thought that having an interface will demostrate better the different parts of a program, or a more complex architecture having a view and a controller.
+I decided to go with a windows form approach, is a easy way to develop an application with an interface and still concentrate in the c# code rather than the development of the UI.
+First I drew a sketch of how I wanted the interface to look like. After that I wrote in a blank document the models that I needed, at least a sketch of that. Thinking that I would need to store the name of the worker and the days and different hours I just wrote a little pseudocode of how the model would function.
+After that I did a small draw of the responsabilities of the controller, the view and the models.
+
+Before started coding I wrote in a document what kind of test I would have at the end, I wrote 5 small test as a pseudocode, what would enter and what would I have as a result, and I was ready to code.
+
+Since I already had a sketch of the UI in the windows form, I wrote the interface since I need to call it from the view. When I was ready I started coding the controller, I advanced in the algorithm so I needed the models. I created the folder for the models and completed the code. 
+
 
 ## The Solution
 
