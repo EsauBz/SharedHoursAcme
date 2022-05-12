@@ -62,8 +62,24 @@ Finally, the controller will call the method that refresh the view AddWorkersToG
 This serve to do the calculation of the shared hours easily, since is just a rest of DateTimes. 
 
 # The Instructions
+The best approach to execute the app is first of all, it was developed in .NET 5, so it should be installed first.
+The best option would be to have Visual stuido 2017 or 2019 installed, since it would be the fastest way to launch the app, also you could inspect and run the unit test easily.
+
+So, for that we are going to download the repository (we can download as a zip and the extract or we can clone the repository directly from github) once that we have the solution, we will identify the file Acme.Workers.SharedHours.sln and double clck it (image below).
+
+<img width="205" alt="image" src="https://user-images.githubusercontent.com/18746243/167988669-adc3737f-d778-4375-b6cc-c98f77a2ab53.png">
+
+That will open the solution in visual studio, we will just idetify the icon play (a green arrow) in the middle of the toolbar and click said icon. The solution will execute automatically and we can test it (in the repository you will find three input files as an examples that can be used for the app).
+
+<img width="167" alt="image" src="https://user-images.githubusercontent.com/18746243/167989398-23f12d13-ffc8-4d57-b538-43bf2434271c.png">
 
 # The Unit Test
+
+To run the unit test we can easily identify in the solution explorer view the project that contains the unit test (image below).
+
+<img width="176" alt="image" src="https://user-images.githubusercontent.com/18746243/167989174-89f1408c-9b88-4ec8-994b-024d404e3446.png">
+
+We can right click the project and choose the "Run test" button. That will triggered automatically all of the test, and after that we will see a small sintesis of all of them.
 
 <img width="485" alt="image" src="https://user-images.githubusercontent.com/18746243/167972753-7fc624c0-417c-4ddb-858c-f7fccbb175d0.png">
 
