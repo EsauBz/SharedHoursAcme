@@ -26,7 +26,7 @@ Since I already had a sketch of the UI in the windows form, I wrote the interfac
 
 ## The Solution
 
-  #### Architecture (The Model-View-Controller(MVC) Pattern with C#/WinForms)
+  ### Architecture (The Model-View-Controller(MVC) Pattern with C#/WinForms)
   
   The idea is to separate the user interface into View (creates the display) and Controller (responds to user requests, interacting with both the View and Controller as necessary), the model is called as necessary from the controller to get information (used as an entity to model the input from the file). The main advantage of MVC pattern is Loose Coupling. 
 All the layers are separated with their own functionality. In other words, MVC pattern is to break up UI behavior into separate pieces in order to increase reuse possibilities and testability. I am using Visual Studio 2019 with .NET 5.0 for creating this Application.
@@ -37,7 +37,7 @@ Model-View-Controller as the name applies considers three pieces:
 - View: It presents the display of the model in the user interface, in this case a simple windows form that lets browse for a file and represents the result of shared hours.
 - Controller: it is really the heart of the MVC, the intermediary that ties the Model and the View together, manipulates the model and causes the view to update when neccessary.
   
- ##### View 
+ #### View 
   In the view part of the architecture we have the AcmeForm.cs class, we can clearly see the design if we inspect it in visual studio (since is a windows form). We will see implemented two buttons, one text box and a grid view. In the code we will encounter the implementation of the interface and two events (one for each button). The methods that come from the implementation of the interface are the ones in charge of the "refresh" of the interface. Clear the grid, clear the textbox or, finally, add the result of the exercise to the data grid.
 #### Controller
 The controller class is called SharedHoursController.cs and is host under the folder controllers. Since is a small exercise the controller has just "two" major actions. 
@@ -56,7 +56,7 @@ If he information recovered is not empty (a list of workers with the days and ho
 
 Finally, the controller will call the method that refresh the view AddWorkersToGrid() with the list of workers (different from zero) that shared time in the office, and of course the time shared.
 
-##### View 
+#### Model 
   We already mention a litte about the function of the model in the controller part, let's just describe which information is stored in which classes.
   Under the Model folder, we will find the Employee.cs file, which represents a class, this represents an employee with a name and a list of days were he/she was at the office and at wich time. The class that represents a day in the office is OfficeHours.cs inside we will encounter the name of the day, the initial hour and the final hour (or the time the employee arrived and left the office), the last two as DateTimes. 
 This serve to do the calculation of the shared hours easily, since is just a rest of DateTimes. 
